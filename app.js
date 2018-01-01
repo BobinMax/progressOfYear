@@ -19,6 +19,6 @@ console.log('Here is progress from start of the current year in percent');
 
 setInterval(function () {
 	process.stdout.clearLine();
-	process.stdout.write(thisPercentBar.update((Date.now() - sdate), microsecondsInYear));
+	process.stdout.write(thisPercentBar.update((Date.now() - sdate), microsecondsInYear, -5));
 	process.stdout.cursorTo(0);
 }, 1000);

@@ -2,6 +2,6 @@
   "name": "app",
   "dependencies": {
     "round10": "*",
-    "clui": "*"
+    "clui": "git+https://github.com/BobinMax/clui.git"
   }
 }
